@@ -8,15 +8,11 @@ function LoadingMessage() {
         <div className="splash-screen">
             <Typist>
                 <h1 className="splash-text">
-                    this website sucks!
-                    <Typist.Backspace count={6} delay={250} />
-                    is perfect!
+                    this website is perfect!
+                    <Typist.Backspace count={8} delay={250} />
+                    amazing?
                     <Typist.Backspace count={8} delay={250} />
                     fine.
-                </h1>
-                <h1 className="splash-text">
-                    <Typist.Delay ms={300} />
-                    and that's okay.
                 </h1>
             </Typist>
             {/* <div className="loading-dot">.</div> */}
@@ -24,7 +20,7 @@ function LoadingMessage() {
     );
 }
 
-function withSplashScreen(WrappedComponent) {
+function SplashScreen(WrappedComponent) {
     return class extends Component {
         constructor(props) {
             super(props);
@@ -39,7 +35,7 @@ function withSplashScreen(WrappedComponent) {
                     this.setState({
                         loading: false,
                     });
-                }, 8000)
+                }, 6000)
             } catch (err) {
                 console.log(err);
                 this.setState({
@@ -56,4 +52,4 @@ function withSplashScreen(WrappedComponent) {
     };
 }
 
-export default withSplashScreen;
+export default SplashScreen;

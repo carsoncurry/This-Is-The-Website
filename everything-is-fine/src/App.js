@@ -2,23 +2,31 @@ import React, { Component } from 'react';
 import './App.css';
 
 // Components
-import withSplashScreen from './Components/SplashScreen/withSplashScreen';
+import BlogPosts from './Components/BlogPosts/BlogPosts';
+import PageFooter from './Components/PageFooter/PageFooter';
+import PageHeader from './Components/PageHeader/PageHeader';
+import PageImage from './Components/PageImage/PageImage';
+import PageIntro from './Components/PageIntro/PageIntro';
+import ProjectPupil from './Components/ProjectPupil/ProjectPupil';
+import ProjectsList from './Components/ProjectsList/ProjectsList';
+import SplashScreen from './Components/SplashScreen/SplashScreen';
+import TechnicalSkills from './Components/TechnicalSkills/TechnicalSkills';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>Header</h1>
-        <h1>Page Image</h1>
-        <h1>Introduction</h1>
-        <h1>Technical Skills</h1>
-        <h1>Blog Posts</h1>
-        <h1>Projects List</h1>
-        <h1>Project Pupil</h1>
-        <h1>Footer</h1>
+        <PageHeader />
+        <PageImage />
+        <PageIntro />
+        <TechnicalSkills />
+        <BlogPosts />
+        <ProjectsList />
+        <ProjectPupil />
+        <PageFooter />
       </div>
     )
   }
 }
 
-export default withSplashScreen(App);
+export default SplashScreen(App);

@@ -1,0 +1,11 @@
+/* Temporary Styling */
+.image-div {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.social-icons {
+    margin-top: 10px;
+    margin-right: 10px;
+}
