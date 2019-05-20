@@ -1,0 +1,12 @@
+.project-image {
+    max-height: 400px;
+    width: auto;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: whitesmoke;
+}

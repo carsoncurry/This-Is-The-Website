@@ -7,7 +7,7 @@ import PageFooter from './Components/PageFooter/PageFooter';
 import PageHeader from './Components/PageHeader/PageHeader';
 import PageImage from './Components/PageImage/PageImage';
 import PageIntro from './Components/PageIntro/PageIntro';
-import ProjectPupil from './Components/ProjectPupil/ProjectPupil';
+import Contact from './Components/Contact/Contact';
 import ProjectsList from './Components/ProjectsList/ProjectsList';
 import SplashScreen from './Components/SplashScreen/SplashScreen';
 import TechnicalSkills from './Components/TechnicalSkills/TechnicalSkills';
@@ -22,7 +22,7 @@ class App extends Component {
         <TechnicalSkills />
         <BlogPosts />
         <ProjectsList />
-        <ProjectPupil />
+        <Contact />
         <PageFooter />
       </div>
     )

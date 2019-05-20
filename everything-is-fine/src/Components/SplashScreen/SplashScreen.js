@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import GlitchEffect from 'react-glitch-effect';
 import Typist from 'react-typist';
 import '../../../node_modules/react-typist/dist/Typist.css';
 import './SplashScreen.css';
@@ -6,15 +7,17 @@ import './SplashScreen.css';
 function LoadingMessage() {
     return (
         <div className="splash-screen">
-            <Typist>
-                <h1 className="splash-text">
-                    this website is perfect!
-                    <Typist.Backspace count={8} delay={250} />
-                    amazing?
-                    <Typist.Backspace count={8} delay={250} />
-                    fine.
-                </h1>
-            </Typist>
+            <GlitchEffect>
+                <Typist>
+                    <h1 className="splash-text">
+                        this website is a work in progress.
+                        <Typist.Backspace count={19} delay={250} />
+                        being updated?
+                        <Typist.Backspace count={14} delay={250} />
+                        alive.
+                    </h1>
+                </Typist>
+            </GlitchEffect>
             {/* <div className="loading-dot">.</div> */}
         </div>
     );
@@ -35,7 +38,7 @@ function SplashScreen(WrappedComponent) {
                     this.setState({
                         loading: false,
                     });
-                }, 6000)
+                }, 9000)
             } catch (err) {
                 console.log(err);
                 this.setState({
