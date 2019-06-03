@@ -10,11 +10,11 @@ function LoadingMessage() {
             <GlitchEffect>
                 <Typist>
                     <h1 className="splash-text">
-                        this website is a work in progress.
-                        <Typist.Backspace count={19} delay={250} />
-                        being updated?
-                        <Typist.Backspace count={14} delay={250} />
-                        alive.
+                        this website is always upgrading.
+                        <Typist.Backspace count={10} delay={250} />
+                        growing.
+                        <Typist.Backspace count={8} delay={250} />
+                        evolving.
                     </h1>
                 </Typist>
             </GlitchEffect>
@@ -38,7 +38,7 @@ function SplashScreen(WrappedComponent) {
                     this.setState({
                         loading: false,
                     });
-                }, 9000)
+                }, 7500)
             } catch (err) {
                 console.log(err);
                 this.setState({

@@ -1,15 +1,130 @@
-.image-div {
-    height: 625px;
-    width: 100%;
-    overflow: hidden;
+.image-column {
+    margin-top: 50px;
+    padding-right: 75px;
 }
 
-.image-column {
-    padding-top: 0;
-    padding-bottom: 0;
+.text-column {
+    margin-top: 50px;
+    padding-left: 75px;
+}
+
+.intro-text {
+    margin: 20px;
 }
 
 .social-icons {
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.flip-icon {
+    margin-top: 25px;
+}
+
+.flip-icon:hover {
+    transform: none;
+}
+
+span.write-intro {
+    display: none;
+}
+
+.intro-segment:hover span.dev-intro {
+    display: none;
+}
+
+.intro-segment:hover span.write-intro {
+    display: block;
+}
+
+.back-face {
+    display: none;
+}
+
+.image-div {
+    transform-style: preserve-3d;
+    transition: all 1.0s linear;
+}
+
+.image-div:hover {
+    transform: rotateY(180deg);
+}
+
+.image-div:hover .front-face {
+    display: none;
+}
+
+.image-div:hover .back-face {
+    display: block;
+}
+
+.profile-pic:hover {
+    cursor: pointer;
+}
+
+.web-link {
+    color: #161617;
+}
+
+.web-link:hover {
+    color: darkslategray;
+}
+
+.rainbow {
+    text-shadow: 2px 2px 4px #000000;
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation: rainbow 5s infinite; 
+  
+    /* Internet Explorer */
+    -ms-animation: rainbow 5s infinite;
+  
+    /* Standard Syntax */
+    animation: rainbow 5s infinite; 
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+    0%{color: orange;}	
+    10%{color: purple;}	
+    20%{color: red;}
+    30%{color: CadetBlue;}
+    40%{color: yellow;}
+    50%{color: coral;}
+    60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+    100%{color: orange;}
+}
+  
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+    0%{color: orange;}	
+    10%{color: purple;}	
+    20%{color: red;}
+    30%{color: CadetBlue;}
+    40%{color: yellow;}
+    50%{color: coral;}
+    60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+    100%{color: orange;}
+}
+  
+/* Standard Syntax */
+@keyframes rainbow{
+    0%{color: orange;}	
+    10%{color: purple;}	
+    20%{color: red;}
+    30%{color: CadetBlue;}
+    40%{color: yellow;}
+    50%{color: coral;}
+    60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+    100%{color: orange;}
 }

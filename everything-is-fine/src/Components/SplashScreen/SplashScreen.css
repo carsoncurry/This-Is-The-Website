@@ -12,6 +12,7 @@
 .splash-screen .splash-text {
     align-items: center;
     justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .splash-screen .loading-dot {

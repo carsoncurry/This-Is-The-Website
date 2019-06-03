@@ -3,10 +3,39 @@
     width: auto;
 }
 
+.project-description {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.project-list {
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 15px;
+}
+
 a {
     color: white;
 }
 
 a:hover {
     color: whitesmoke;
+}
+
+.down-arrow:hover {
+    transform: none;
+}
+
+#project-gif {
+    display: none;
+}
+
+.project-block:hover #project-image {
+    display: none;
+    cursor: pointer;
+}
+
+.project-block:hover #project-gif {
+    display: block;
+    cursor: pointer;
 }

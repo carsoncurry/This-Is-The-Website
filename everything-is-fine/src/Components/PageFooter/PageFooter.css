@@ -1,7 +1,15 @@
-.footer-section {
-    align-items: center;
-}
-
 .copyright {
     margin-right: 5px;
+}
+
+.web-link {
+    color: #161617;
+}
+
+.web-link:hover {
+    color: darkslategray;
+}
+
+#post-credits:hover {
+    cursor: pointer;
 }

@@ -14,15 +14,20 @@ class TechnicalSkills extends React.Component {
                 <Grid.Column textAlign="center">
                     <Fade bottom>
                         <div>
-                            <h2>Technical Skills</h2>
-                            <h4>Here's the list of technical skills I have. There's gonna be more. Come on, dude.</h4>
-                            <Icon name="css3" circular inverted size="large" />
-                            <Icon name="github" circular inverted size="large" />
-                            <Icon name="html5" circular inverted size="large" />
-                            <Icon name="node" circular inverted size="large" />
-                            <Icon name="npm" circular inverted size="large" />
-                            <Icon name="react" circular inverted size="large" />
-                            <Icon name="wordpress" circular inverted size="large" />
+                            <h2>My Skills</h2>
+                            <h4>
+                                I've picked up a few tricks that can be seen on this and other sites. 
+                                Web developers are always learning, so the more I learn the more icons you'll see on this page. 
+                            </h4>
+                            <Icon name="html5" circular inverted size="large" className="skill-icon" />
+                            <Icon name="css3" circular inverted size="large" className="skill-icon" />
+                            <Icon name="js square" circular inverted size="large" className="skill-icon" />
+                            <Icon name="node" circular inverted size="large" className="skill-icon" />
+                            <Icon name="npm" circular inverted size="large" className="skill-icon" />
+                            <Icon name="react" circular inverted size="large" className="skill-icon" />
+                            <Icon name="vuejs" circular inverted size="large" className="skill-icon" />
+                            <Icon name="wordpress" circular inverted size="large" className="skill-icon" />
+                            <Icon name="git" circular inverted size="large" className="skill-icon" />
                         </div>
                     </Fade>
                 </Grid.Column>

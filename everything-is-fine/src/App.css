@@ -1,3 +1,29 @@
-h1 {
-    text-align: center;
+.side-icons {
+    position: fixed;
+    z-index: 99;
+    top: 15px;
+    right: 15px;
+}
+
+.left-icons {
+    position: fixed;
+    z-index: 99;
+    top: 15px;
+    left: 15px;
+}
+
+.side-icon {
+    margin-bottom: 15px;
+}
+
+.dark-button:hover {
+    cursor: pointer;
+}
+
+.modal-button:hover {
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(1.5);
 }

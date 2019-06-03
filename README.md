@@ -13,3 +13,13 @@ My living portfolio and evolving canvas upon which I can test my skills as a web
 
 -- React-Typist
 --- SplashScreen typing affect
+
+-- Semantic UI React
+--- Styling library
+
+-- Emotion / Emotion-Theming
+--- Color themes and dark mode switcher
+
+## Next Steps
+-- Mobile and Cross-Browser Optimization
+--- Look up Modernizr
